@@ -1,0 +1,43 @@
+.employeeCard {
+  height: 223px;
+  width: 185px;
+  border-radius: 4px;
+  border: 1px solid #b9bbbe;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.empName {
+  /* font-family: Inter; */
+  font-size: 16px;
+  font-weight: 600;
+
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.imgFace {
+  height: 100%;
+}
+.faceImg {
+  height: 97px;
+  width: 97px;
+  margin-bottom: 15px;
+}
+.designation {
+  font-size: 16px;
+  font-weight: 500;
+
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #92959a;
+}
+.empNo {
+  font-size: 16px;
+  font-weight: 500;
+
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #4996fc;
+}
